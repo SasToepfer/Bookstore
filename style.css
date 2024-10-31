@@ -1,0 +1,83 @@
+html {
+    font-size: 16px;
+    color: white;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+h2 {
+    font-size: 1.5rem;
+}
+body {
+    font-size: 1rem;
+    margin: 0;
+    background-color: rgb(13, 8, 32);
+}
+table {
+    width: 50%;
+}
+.site {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+button {
+    height: 1rem;
+    width: 2rem;
+}
+button:hover {
+    cursor: pointer;
+    
+}
+.content-distance {
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+/* #region head */
+header {
+    background-color: rgb(28, 15, 80);
+}
+.head-container {
+    height: 8rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.head-logo {
+    width: 8rem;
+}
+main {
+    
+    display: flex;
+    flex: 1;
+}
+.game-gallery {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer {
+    background-color: rgb(28, 15, 80);
+}
+.foot-container {
+    height: 4rem;
+    font-size: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

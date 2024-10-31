@@ -1,12 +1,13 @@
-let games = [
+export const games = [
     {
-        "name": "Die Legende von Arcania",
-        "author": "Max Schreiber",
+        "name": "Die Legende von Adlez",
+        "developer": "Shinmendo",
         "likes": 3400,
         "liked": true,
         "price": 49.99,
         "publishedYear": 2020,
         "genre": "RPG",
+        "image": "",
         "comments": [
             {
                 "name": "GameMaster99",
@@ -32,12 +33,13 @@ let games = [
     },
     {
         "name": "Galaxiensturm",
-        "author": "Lea Kosmos",
+        "publisher": "Tarswars",
         "likes": 2250,
         "liked": false,
         "price": 39.99,
         "publishedYear": 2022,
         "genre": "Sci-Fi Shooter",
+        "image": "",
         "comments": [
             {
                 "name": "LaserLord",
@@ -63,12 +65,13 @@ let games = [
     },
     {
         "name": "Verloren im Schatten",
-        "author": "Finn Dunkel",
+        "author": "Spookstudios",
         "likes": 1890,
         "liked": true,
         "price": 29.99,
         "publishedYear": 2019,
         "genre": "Horror",
+        "image": "",
         "comments": [
             {
                 "name": "DarkSoul",
@@ -93,13 +96,14 @@ let games = [
         ]
     },
     {
-        "name": "Baumeister der Zukunft",
-        "author": "Ina Architekt",
+        "name": "Shitty Skylines",
+        "author": "Ordercoloss",
         "likes": 1575,
         "liked": false,
         "price": 24.99,
         "publishedYear": 2021,
         "genre": "Simulation",
+        "image": "",
         "comments": [
             {
                 "name": "CityDreamer",
@@ -124,13 +128,14 @@ let games = [
         ]
     },
     {
-        "name": "Zeit des Kriegers",
-        "author": "Kai Stahl",
+        "name": "Kredo der Assassinen",
+        "author": "Noobisoft",
         "likes": 2900,
         "liked": true,
         "price": 44.99,
         "publishedYear": 2023,
         "genre": "Action",
+        "image": "",
         "comments": [
             {
                 "name": "ActionAddict",
