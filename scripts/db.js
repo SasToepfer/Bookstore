@@ -1,4 +1,4 @@
-export const games = [
+const games = [
     {
         "name": "Die Legende von Adlez",
         "developer": "Shinmendo",

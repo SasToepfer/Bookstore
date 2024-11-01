@@ -8,10 +8,13 @@
     <title>Game Store</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="styles/gameCover.css">
-    <script src="script.js" type="module"></script>
+
+    <script src="./scripts/db.js"></script>
+    <script src="script.js"></script>
+
 </head>
 
-<body>
+<body onload="init()">
     <site class="site">
         <header>
             <headsection class="head-container content-distance">
@@ -22,9 +25,7 @@
         </header>
         <main class="content-distance">
             <div id="game-gallery" class="game-gallery">
-                
             </div>
-
         </main>
         <footer>
             <div class="foot-container content-distance">Images created with Gen-Ai
